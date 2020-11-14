@@ -1,0 +1,132 @@
+.dautrang {
+  height: 50px;
+  background-color: rgb(59, 113, 175);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dautrang .left .fa {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: peru;
+}
+
+.dautrang .right .fa {
+  margin-right: 20px;
+  margin-left: 25px;
+  /*  do rong ben trai chu */
+  color: peru;
+}
+
+.dautrang .left span {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 2px solid lightgray;
+  /*  duong ke do dai */
+  border-right: 2px solid lightgray;
+  padding: 11px 20px;
+  margin: 30px;
+}
+
+.dautrang .right span {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 2px solid lightgray;
+  padding: 11px;
+  border-right: 2px solid lightgray;
+  padding: 11px;
+  margin: 30px;
+}
+
+.nav-link {
+  color: chocolate;
+}
+
+.navbar ul li {
+  margin: 15px;
+
+}
+
+/* sản phẩm */
+.spnam {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.spnam .mz3 {
+  text-align: center;
+  height: 280px;
+  width: 280px;
+  float: left;
+  font-size: 20px;
+
+}
+
+.spnu {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.spnu .mz3 {
+  text-align: center;
+  height: 280px;
+  width: 280px;
+  float: left;
+  font-size: 20px;
+
+}
+
+/* giá thấp nhất */
+.spthapnhat {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.spthapnhat .mz3 {
+  text-align: center;
+  height: 280px;
+  width: 280px;
+  float: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 89px;
+}
+
+/* bán chạy nhất */
+.spbanchaynhat {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.spbanchaynhat .mz3 {
+  text-align: center;
+  height: 280px;
+  width: 280px;
+  float: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 89px;
+}
